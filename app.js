@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
-const rulesRoutes = require('./routes/rules');
+const requestValidator = require('./routes/requestValidator');
 
 const app = express();
 
