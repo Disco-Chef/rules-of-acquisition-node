@@ -4,13 +4,11 @@ const { check } = require('express-validator');
 const rulesController = require('../controllers/rules');
 
 const router = express.Router();
-const rulesJson =
 
 router.get("/v1/rules",
   [
   // do the validation checks here
     check("rule_number").custom((value, { req }) => {
-      // check valid date format, because: moment('20/02323', 'DD/MM/YYYY').isValid() returns true ?!
       if (!(value in rulesOfAcquisition)) {
         throw new Error ('Invalid rule number');
       }

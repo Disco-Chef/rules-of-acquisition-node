@@ -11,7 +11,7 @@ exports.getRules = (req, res, next) => {
     // console.log(errors.errors)
     return res.status(400).json({
         success: false,
-        message: "No such rule number exists. Some have been lost to the ages, but '1' to '286' should do"
+        message: "No such rule number exists. Some have been lost to the ages, but most from '1' to '286' should do"
     })
   }
 
