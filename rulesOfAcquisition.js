@@ -1,5 +1,4 @@
-// host this crap on something like github pages just do a normal fetch on it in route and controller
-{
+const rulesOfAcquisition = {
   "1":"Once you have their money, never give it back",
   "2":"You can't cheat an honest customer, but it never hurts to try",
   "3":"Never spend more for an acquisition than you have to",
@@ -282,4 +281,6 @@
   "284":"Rules are always subject to interpretation",
   "285":"No good deed ever goes unpunished",
   "286":"When Morn leaves it is all over"
-}
+};
+
+exports.rules = rulesOfAcquisition;
