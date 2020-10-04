@@ -1,4 +1,4 @@
-const rulesOfAcquisition = {
+const rulesListing = {
   "1":"Once you have their money, never give it back",
   "2":"You can't cheat an honest customer, but it never hurts to try",
   "3":"Never spend more for an acquisition than you have to",

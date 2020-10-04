@@ -1,6 +1,6 @@
 // Why in God's sweet sweet name is my object under rules.rules instead of just rules?
 
-const rules = require('../rulesOfAcquisition')
+const rulesFile = require('../data/rulesOfAcquisition')
 
 const { validationResult } = require("express-validator")
 
@@ -26,7 +26,7 @@ exports.getRules = (req, res, next) => {
         message: "Successfully got Rule of Acquisition",
         data: {
           rule_number: req.body.rule_number,
-          script:rules.rules[req.body.rule_number]
+          script:rulesFile.rulesListing[req.body.rule_number]
         }
     })
   }
