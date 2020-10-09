@@ -8,7 +8,7 @@ const rulesController = require('../controllers/rules');
 
 const router = express.Router();
 
-router.get("/v1/rules",
+router.post("/v1/rules",
   [
     check("rule_number").custom((value, { req }) => {
       if (!(value in rulesFile.rulesListing)) {
@@ -19,4 +19,9 @@ router.get("/v1/rules",
   ],
   rulesController.getRules
 )
+
+router.get("/v1/rules",
+  rulesController.getRandomRule
+)
+
 module.exports = router

@@ -283,4 +283,4 @@ const rulesListing = {
   "286":"When Morn leaves it is all over"
 };
 
-exports.rules = rulesOfAcquisition;
+exports.rulesListing = rulesListing;
