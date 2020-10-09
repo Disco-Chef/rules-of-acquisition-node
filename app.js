@@ -19,4 +19,4 @@ app.use(bodyParser.json());
 // GET /rules
 app.use('/api', requestValidator);
 
-app.listen(8080);
+app.listen(process.env.PORT);
