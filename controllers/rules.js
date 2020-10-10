@@ -25,8 +25,8 @@ exports.getRules = (req, res, next) => {
         success: true,
         message: "Successfully got Rule of Acquisition",
         data: {
-          rule_number: req.body.rule_number,
-          script: rulesFile.rulesListing[req.body.rule_number]
+          rule: req.body.rule_number,
+          scripture: rulesFile.rulesListing[req.body.rule_number]
         }
     })
   }
@@ -39,8 +39,8 @@ exports.getRandomRule = (req, res, next) => {
     success: true,
     message: "Successfully got Rule of Acquisition",
     data: {
-      rule_number: rule_number,
-      script: rulesFile.rulesListing[rule_number]
+      rule: rule_number,
+      scripture: rulesFile.rulesListing[rule_number]
     }
   })
 }
