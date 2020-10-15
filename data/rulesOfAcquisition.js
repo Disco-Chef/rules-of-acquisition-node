@@ -147,6 +147,7 @@ const rulesListing = {
   "146":"If possible sell neither the sizzle nor the steak, but the Elphasian wheat germ",
   "147":"New customers are like razor toothed gree worms. They can be succulent, but sometimes they bite back",
   "148":"Opportunity waits for no one",
+  "149":"Females and finances don't mix",
   "150":"Make your shop easy to find",
   "151":"Sometimes, what you get for free costs entirely too much",
   "152":"Ask not what your profits can do for you; ask what you can do for your profits",
