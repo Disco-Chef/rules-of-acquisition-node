@@ -277,6 +277,7 @@ const rulesListing = {
   "276":"If at first you don't succeed, try to acquire again",
   "277":"Diamonds may be girl's best friend, but you can only buy the girl with Latinum",
   "278":"It's better to swallow your pride than to lose your profit",
+  "279":"Never close a deal too soon after a female strokes your lobes",
   "280":"An empty bag can not stand upright",
   "281":"Blood is thicker than water, but harder to sell",
   "282":"Business is like war; it's important to recognize the winner",
