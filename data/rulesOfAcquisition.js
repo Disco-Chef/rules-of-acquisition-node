@@ -261,6 +261,7 @@ const rulesListing = {
   "260":"Gambling is like the way to power: The only way to win is to cheat, but don't get caught in the process",
   "261":"A wealthy man can afford everything except a conscience",
   "262":"No lobes, no profit",
+  "263":"Never let a female in clothes cloud your sense of profit",
   "264":"It's not the size of your planet, but it's income, that matters",
   "265":"The fear of loss may be your greatest enemy or your best friend - choose wisely",
   "266":"A pair of good ears will ring dry a hundred tongues",
