@@ -25,7 +25,7 @@ exports.getRules = (req, res, next) => {
         success: true,
         message: "Successfully got Rule of Acquisition",
         data: {
-          rule: req.body.rule_number,
+          rule_number: req.body.rule_number,
           scripture: rulesFile.rulesListing[req.body.rule_number]
         }
     })

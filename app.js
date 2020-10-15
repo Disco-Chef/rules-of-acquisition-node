@@ -14,9 +14,11 @@ app.use((req, res, next) => {
 // Can also parse body of incoming requests to json
 app.use(bodyParser.json());
 
-// Add
-
-// GET /rules
 app.use('/api', requestValidator);
 
+
+// Production
 app.listen(process.env.PORT);
+
+// Dev
+// app.listen(8080);
