@@ -106,6 +106,7 @@ const rulesListing = {
   "105":"Wise men don't lie, they just bend the truth",
   "106":"There is no honor in poverty",
   "107":"Win or lose, there's always Huyperian Beetle Snuff",
+  "108":"A woman wearing clothes is like a man without profit",
   "109":"Dignity and an empty sack is worth the sack",
   "110":"Only a fool passes up a business opportunity",
   "111":"Treat people in your debt like family ... exploit them",
