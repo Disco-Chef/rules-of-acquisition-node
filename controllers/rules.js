@@ -5,7 +5,7 @@ const rulesFile = require('../data/rulesOfAcquisition')
 const { validationResult } = require("express-validator")
 
 
-exports.getRules = (req, res, next) => {
+exports.getRule = (req, res, next) => {
 
   const errors = validationResult(req)
 
@@ -42,5 +42,14 @@ exports.getRandomRule = (req, res, next) => {
       rule: rule_number,
       scripture: rulesFile.rulesListing[rule_number]
     }
+  })
+}
+exports.getRandomRule = (req, res, next) => {
+  let rule_number = Math.floor(Math.random() * (286 - 1) + 1.).toString()
+  res.status(200).json({
+
+    success: true,
+    message: "Successfully got Rule of Acquisition",
+    data: rulesFile.rulesListing
   })
 }

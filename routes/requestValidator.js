@@ -17,11 +17,15 @@ router.post("/v1/rules",
       return true
     })
   ],
-  rulesController.getRules
+  rulesController.getRule
 )
 
 router.get("/v1/rules/random",
   rulesController.getRandomRule
+)
+
+router.get("/v1/rules/",
+  rulesController.getAllRules
 )
 
 module.exports = router
