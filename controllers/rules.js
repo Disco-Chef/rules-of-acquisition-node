@@ -35,7 +35,6 @@ exports.getRule = (req, res, next) => {
 exports.getRandomRule = (req, res, next) => {
   let rule_number = Math.floor(Math.random() * (286 - 1) + 1.).toString()
   res.status(200).json({
-
     success: true,
     message: "Successfully got Rule of Acquisition",
     data: {
@@ -44,10 +43,8 @@ exports.getRandomRule = (req, res, next) => {
     }
   })
 }
-exports.getRandomRule = (req, res, next) => {
-  let rule_number = Math.floor(Math.random() * (286 - 1) + 1.).toString()
+exports.getAllRules = (req, res, next) => {
   res.status(200).json({
-
     success: true,
     message: "Successfully got Rule of Acquisition",
     data: rulesFile.rulesListing
