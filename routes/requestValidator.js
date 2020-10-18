@@ -20,7 +20,7 @@ router.post("/v1/rules",
   rulesController.getRules
 )
 
-router.get("/v1/rules",
+router.get("/v1/rules/random",
   rulesController.getRandomRule
 )
 
